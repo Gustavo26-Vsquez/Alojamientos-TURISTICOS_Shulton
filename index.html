@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHULTON | Estancia Perfecta · El Salvador</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-sh">SH</span><span class="logo-ulton">ULTON</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link nav-cta">Reservar</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Overlay menú móvil -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!--HERO-->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+
+        <div class="hero-content">
+            <p class="hero-tag">✨El Salvador - Centroamérica✨</p>
+            <h1 class="hero-title">
+                Tu <em>Estancia</em><br />Perfecta<br />
+                <span class="hero-title-accent">Te Espera</span>
+            </h1>
+            <p class="hero-subtitle">
+                Descubre refugios únicos entre volcanes, playas y lagos.<br />
+                Lujo auténtico en el corazón de El Salvador.
+            </p>
+            <div class="hero-actions">
+                <a href="#servicios" class="btn btn-primary">Explorar Alojamientos</a>
+                <a href="#nosotros" class="btn btn-ghost">Conoce SHULTON Estancia Perfecta</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Descubre</span>
+            <div class="scroll-line"></div>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num" data-target="12">0</span>
+                <span class="stat-label">Propiedades</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-num" data-target="100">0</span>
+                <span class="stat-label">Huéspedes felices</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-num" data-target="9">0</span>
+                <span class="stat-label">Destinos</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+
+                <div class="nosotros-visual">
+                    <div class="img-frame main-frame">
+                        <img src="https://www.snet.gob.sv/imgvulca/1.jpg" alt="Volcán Santa Ana El Salvador" />
+                    </div>
+                    <div class="img-frame accent-frame">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-4963356/original/c61c218c-b10e-491c-9e1a-8270450750b2.jpeg"
+                            alt="Alojamiento de lujo" />
+                    </div>
+                    <div class="nosotros-badge">
+                        <span class="badge-year">EST.</span>
+                        <span class="badge-num">2026</span>
+                    </div>
+                </div>
+
+                <div class="nosotros-text">
+                    <span class="section-tag">Sobre nosotros</span>
+                    <h2 class="section-title">La Hospitalidad <em>salvadoreña</em> no la podrás olvidar</h2>
+                    <p class="nosotros-desc">
+                        SHULTON Estancia perfecta nació de un sueño: mostrar al mundo la belleza sin igual de El
+                        Salvador. Desde los mercados coloniales de Suchitoto hasta las olas perfectas de El Tunco, cada
+                        rincón de este país guarda una magia que pocos conocen.
+                    </p>
+                    <p class="nosotros-desc">
+                        Somos una colección web, cuidadosamente seleccionada de alojamientos boutique, ecolodges y
+                        villas privadas, donde el lujo se funde con la autenticidad local. Tu comodidad es nuestro
+                        objetivo; tu recuerdo, nuestra misión.
+                    </p>
+                    <ul class="nosotros-features">
+                        <li><i class="fas fa-leaf"></i> Turismo sostenible y responsable</li>
+                        <li><i class="fas fa-star"></i> Atención personalizada 24/7</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ubicaciones únicas e irrepetibles</li>
+                        <li><i class="fas fa-shield-alt"></i> Experiencias verificadas y seguras</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Planifica tu estadía</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros Alojamientos</span>
+                <h2 class="section-title">Escoge tu <em>refugio</em> ideal</h2>
+                <p class="section-subtitle">Desde suites con vista al volcán hasta cabañas frente al mar. Cada propiedad
+                    es una historia distinta.</p>
+            </div>
+
+            <div class="servicios-grid">
+
+                <div class="servicio-card" data-category="playa">
+                    <div class="card-img">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-4963356/original/c61c218c-b10e-491c-9e1a-8270450750b2.jpeg"
+                            alt="Villa Frente al Mar" />
+                        <span class="card-badge">Más popular</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-umbrella-beach"></i></div>
+                        <h3>Villas Frente al Mar</h3>
+                        <p>Despierta con el sonido de las olas en El Tunco o El Zonte. Piscina privada, terraza
+                            panorámica y acceso directo a la playa.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$120</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicio-card" data-category="volcan">
+                    <div class="card-img">
+                        <img src="https://images.trvl-media.com/lodging/92000000/91920000/91914700/91914625/f7a69325.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+                            alt="Ecolodge Volcánico" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-mountain"></i></div>
+                        <h3>Ecolodges Volcánicos</h3>
+                        <p>Hospédate en las faldas del Santa Ana o el Izalco. Senderismo, café de altura y cielos
+                            estrellados lejos de la ciudad.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$85</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicio-card" data-category="colonial">
+                    <div class="card-img">
+                        <img src="https://cdn.forbescentroamerica.com/2020/12/Suchitoto-pueblo-colonial-El-Salvador-2-1024x681.jpg"
+                            alt="Casas Coloniales" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-city"></i></div>
+                        <h3>Casas Coloniales</h3>
+                        <p>Vive la historia en Suchitoto o Santa Ana. Patios con jardín, arquitectura del siglo XIX y
+                            gastronomía tradicional.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$95</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicio-card" data-category="lago">
+                    <div class="card-img">
+                        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1249646576691377125/original/7a9bf2c9-6b66-46e4-ac51-47bc00fa1a15.jpeg"
+                            alt="Retiro Lacustre" />
+                        <span class="card-badge nuevo">Nuevo</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-water"></i></div>
+                        <h3>Cabaña a la orilla del lago</h3>
+                        <p>Paz absoluta a orillas del Lago de Coatepeque o el Güija. Kayak, pesca deportiva y
+                            atardeceres de otro mundo.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$110</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicio-card" data-category="cafe">
+                    <div class="card-img">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/2b/f7/3e/57/caption.jpg"
+                            alt="Fincas Cafetaleras" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-coffee"></i></div>
+                        <h3>Fincas Cafetaleras</h3>
+                        <p>Sumérgete en la cultura del café en Apaneca o Juayúa. Tours de cosecha, cata de cafés
+                            especiales y aire puro de montaña.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$75</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="servicio-card" data-category="lujo">
+                    <div class="card-img">
+                        <img src="https://granhotelcostadelsol.com/wp-content/uploads/2024/10/HGCS-Albornoz-1.redimensionado.jpg"
+                            alt="Suite Premium" />
+                        <span class="card-badge premium">Premium</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fas fa-gem"></i></div>
+                        <h3>Suites Premium</h3>
+                        <p>La cumbre de la hospitalidad en El Salvador. Butler personal, chef privado, spa y traslados
+                            en vehículo de lujo.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Desde <strong>$150</strong>/noche</span>
+                            <a href="#contacto" class="card-link">Reservar <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA (interacción DOM)  -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Galería</span>
+                <h2 class="section-title">El Salvador <em>en imágenes</em></h2>
+            </div>
+
+            <div class="galeria-filtros">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="playa">Playas</button>
+                <button class="filtro-btn" data-filter="naturaleza">Naturaleza</button>
+                <button class="filtro-btn" data-filter="cultura">Cultura</button>
+            </div>
+
+            <div class="galeria-grid" id="galeriaGrid">
+                <div class="gal-item" data-cat="playa">
+                    <img src="https://diarioelsalvador.media/2025/07/99.jpg" alt="Playa El Tunco" />
+                    <div class="gal-overlay"><span>Playa El Tunco</span></div>
+                </div>
+                <div class="gal-item grande" data-cat="naturaleza">
+                    <img src="https://pbs.twimg.com/media/EFZirWgWkAYhVhe.jpg" alt="Volcán Izalco" />
+                    <div class="gal-overlay"><span>Volcán Izalco</span></div>
+                </div>
+                <div class="gal-item" data-cat="cultura">
+                    <img src="https://ennewssv.com/wp-content/uploads/2025/07/artesania-1.jpg"
+                        alt="Artesanía Salvadoreña" />
+                    <div class="gal-overlay"><span>Artesanía Local</span></div>
+                </div>
+                <div class="gal-item" data-cat="playa">
+                    <img src="https://sayzonte.com/wp-content/uploads/2022/07/El-Zonte-10-Kopie.jpg "
+                        alt="Surf El Salvador" />
+                    <div class="gal-overlay"><span>Surf - El Zonte</span></div>
+                </div>
+                <div class="gal-item" data-cat="naturaleza">
+                    <img src="https://mundoficticio698-png.github.io/Lugares-Tur-sticos-de-El-Salvador/img/lago%20coatepeque.jpeg"
+                        alt="Lago de Coatepeque" />
+                    <div class="gal-overlay"><span>Lago Coatepeque</span></div>
+                </div>
+                <div class="gal-item grande" data-cat="cultura">
+                    <img src="https://elsalvador.travel/system/wp-content/uploads/2024/05/suchitoto.jpg"
+                        alt="Suchitoto Colonial" />
+                    <div class="gal-overlay"><span>Suchitoto Colonial</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-grid">
+
+                <div class="contacto-info">
+                    <span class="section-tag">Contáctanos</span>
+                    <h2 class="section-title">Reserva tu <em>escapada</em> perfecta</h2>
+                    <p>Completa el formulario y uno de nuestros asesores de viaje te contactará en menos de 24 horas
+                        para crear tu experiencia personalizada.</p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Sede Central</strong>
+                                <span>Barrio el Molino, Usulután, El Salvador</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Teléfono / WhatsApp</strong>
+                                <span>+503 7121-2828</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Correo Electrónico</strong>
+                                <span>reservashulton@gmail.com.sv</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-wrapper">
+                    <form class="reserva-form" id="reservaForm" novalidate>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+                                <span class="error-msg" id="error-nombre"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico *</label>
+                                <input type="email" id="email" name="email" placeholder="tu@correo.com" />
+                                <span class="error-msg" id="error-email"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefono">Teléfono *</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+503 0000-0000" />
+                                <span class="error-msg" id="error-telefono"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="personas">Número de personas *</label>
+                                <select id="personas" name="personas">
+                                    <option value="">Selecciona</option>
+                                    <option value="1">1 persona</option>
+                                    <option value="2">2 personas</option>
+                                    <option value="3-4">3 - 4 personas</option>
+                                    <option value="5+">5 o más</option>
+                                </select>
+                                <span class="error-msg" id="error-personas"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="llegada">Fecha de llegada *</label>
+                                <input type="date" id="llegada" name="llegada" />
+                                <span class="error-msg" id="error-llegada"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="salida">Fecha de salida *</label>
+                                <input type="date" id="salida" name="salida" />
+                                <span class="error-msg" id="error-salida"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group full">
+                            <label for="alojamiento">Tipo de alojamiento</label>
+                            <select id="alojamiento" name="alojamiento">
+                                <option value="">Selecciona</option>
+                                <option value="villa">Rancho Frente al Mar</option>
+                                <option value="ecolodge">Glamping</option>
+                                <option value="colonial">Casa Colonial</option>
+                                <option value="lago">Retiros</option>
+                                <option value="finca">Finca</option>
+                                <option value="premium">Suite Premium</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full">
+                            <label for="mensaje">Mensaje o solicitud especial</label>
+                            <textarea id="mensaje" name="mensaje" rows="4"
+                                placeholder="Cuéntanos sobre tu viaje ideal, necesidades especiales, celebraciones..."></textarea>
+                            <span class="error-msg" id="error-mensaje"></span>
+                        </div>
+
+                        <div class="form-group full checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="terminos" name="terminos" />
+                                <span class="checkmark"></span>
+                                Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de
+                                    privacidad</a> *
+                            </label>
+                            <span class="error-msg" id="error-terminos"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <span class="btn-text">Solicitar Reserva</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                    </form>
+
+                    <!-- Mensaje de éxito -->
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>¡Reserva enviada!</h3>
+                        <p>Gracias por elegir SHULTON Estancia Perfecta. Te contactaremos en las próximas 24 horas para
+                            confirmar tu estadía perfecta.</p>
+                        <button class="btn btn-ghost" id="btnNuevaReserva">Hacer otra reserva</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+
+                    <div class="footer-brand">
+                        <a href="#hero" class="nav-logo footer-logo">
+                            <span class="logo-sh">SH</span><span class="logo-ulton">ULTON</span>
+                        </a>
+                        <p>Alojamientos turísticos únicos en El Salvador. Tu estancia perfecta comienza aquí.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#hero">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#galeria">Galería</a></li>
+                            <li><a href="#contacto">Reservar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-nav">
+                        <h4>Destinos</h4>
+                        <ul>
+                            <li><a href="#galeria">Playa El Tunco</a></li>
+                            <li><a href="#galeria">Suchitoto</a></li>
+                            <li><a href="#galeria">Lago Coatepeque</a></li>
+                            <li><a href="#galeria">Ruta de las Flores</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="footer-nav">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Barrio El Molino, Usulután, El Salvador</li>
+                            <li><i class="fas fa-phone"></i> +503 2121-2828</li>
+                            <li><i class="fas fa-envelope"></i> reservashulton@gmail.com</li>
+                            <li><i class="fas fa-clock"></i> Lun–Dom: 8am – 8pm</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© <span id="currentYear"></span> <strong>SHULTON Estancia Perfecta</strong>. Todos los derechos
+                    reservados.</p>
+                <p> <strong>El Salvador</strong> · Diseñado por <strong>SHULTON INU_Grupo 11</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón volver arriba -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
