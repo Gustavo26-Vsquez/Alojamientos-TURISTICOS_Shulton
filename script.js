@@ -27,6 +27,7 @@
     function openMenu() {
         hamburger.classList.add('open');
         navLinks.classList.add('open');
+        overlay.style.display = 'block';
         overlay.classList.add('active');
         document.body.style.overflow = 'hidden';
         hamburger.setAttribute('aria-label', 'Cerrar menú');
@@ -38,6 +39,7 @@
         overlay.classList.remove('active');
         document.body.style.overflow = '';
         hamburger.setAttribute('aria-label', 'Abrir menú');
+        setTimeout(() => { overlay.style.display = 'none'; }, 300);
     }
 
     hamburger.addEventListener('click', () => {
@@ -440,6 +442,12 @@
 
     document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
         observer.observe(el);
+        
+        setTimeout(() => {
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+        el.classList.add('visible');
+    });
+}, 2500); // Si en 2.5s no animó, forzar visible
     });
 })();
 
