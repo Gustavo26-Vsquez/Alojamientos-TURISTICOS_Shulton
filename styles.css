@@ -293,6 +293,7 @@ ul {
 }
 
 .nav-overlay.active {
+    display: block;
     opacity: 1;
 }
 
